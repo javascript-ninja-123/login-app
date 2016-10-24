@@ -1,0 +1,58 @@
+@font-face{
+	font-family:"murder";
+	src:url("../font/youmurdererbb_reg.ttf");
+}
+@font-face{
+	font-family:"terror";
+	src:url("../font/terror_pro.ttf");
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(../img/background5.gif);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+
+}
+.panel-default{
+	margin-top:240px !important;
+	width:40%;
+	margin:0 auto;
+	background-color:rgba(255,255,255,0.4) !important;
+	border:none;
+	padding:5px;
+
+}
+h1{
+	font-size:4em;
+	font-family:"murder";
+	text-align:center;
+
+}
+form{
+	text-align:center;
+	width:60%;
+	margin:0 auto;
+}
+#second{
+	margin-left:3px;
+}
+.btn{
+	margin-top:10px;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:helvetica;
+	font-family:"terror";
+	font-weight:800;
+	background:#BF8049;
+	border:none;
+	text-shadow:none;
+	color:#260902;
+	
+
+
+}
+
